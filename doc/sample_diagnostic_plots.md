@@ -3,10 +3,10 @@ Diagnostic plots
 =================
 
 ### Table of Contents
-**[Autocorrelation plot](#autocorr-plot)**
-**[Trace plot](#trace-plot)**
-**[Triangle plot](#triangle-plot)**
-**[1D posterior marginals](#1Dhist-plot)**
+[Autocorrelation plot](#autocorrelation-plot)
+[Trace plot](#trace-plot)
+[Triangle plot](#triangle-plot)
+[Histogram plot](#histogram-plot)
 
 Autocorrelation plot
 --------------------
@@ -20,8 +20,8 @@ Triangle plot
 -------------
 ![triangle_01]
 
-1D posterior marginals
-----------------------
+Histogram plot
+--------------
 ![1Dhist_01]
 
 [autocorr_01]: https://github.com/rozsasarpi/gwmcmc/blob/master/doc/autocorrelation_plot_sample_01.png "autocorrelation plot"
