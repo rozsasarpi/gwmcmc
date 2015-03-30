@@ -3,10 +3,10 @@ Diagnostic plots
 =================
 
 ### Table of Contents
-[Autocorrelation plot](#autocorrelation-plot)
-[Trace plot](#trace-plot)
-[Triangle plot](#triangle-plot)
-[Histogram plot](#histogram-plot)
+* [Autocorrelation plot](#autocorrelation-plot)
+* [Trace plot](#trace-plot)
+* [Triangle plot](#triangle-plot)
+* [Histogram plot](#histogram-plot)
 
 Autocorrelation plot
 --------------------
