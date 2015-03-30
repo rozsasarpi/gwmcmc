@@ -15,14 +15,20 @@ truly deserves to be called the MCMC hammer.
 
 Authors: [Aslak Grinsted](http://www.glaciology.net) 
 
-
+Features
+-------
+* Parallel calculation option
+* [Diagnostic plots](https://github.com/rozsasarpi/gwmcmc/blob/master/doc/sample_diagnostic_plots.md)
+* Independent of Matlab toolboxes (basic features)
 	
-## Licensing
+Licensing
+--------
 
 The majority of the code is licensed under a very permissive MIT license, but some routines and example data are licensed under other terms. See licensing details in LICENSE.txt and individual files. 
 
 
-## Acknowledgements
+Acknowledgements
+---------------
 
 This software has been developed at [Centre for Ice and Climate](http://www.iceandclimate.nbi.ku.dk), Niels Bohr Institute, University of Copenhagen. It is partly inspired by emcee for python, but not modelled after it. 
 
