@@ -1,0 +1,3 @@
+even _normpdf_ is dependent on stat toolbox..
+
+at least the distributions in the examples could be added
