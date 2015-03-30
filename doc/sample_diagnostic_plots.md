@@ -2,6 +2,12 @@
 Diagnostic plots
 =================
 
+### Table of Contents
+**[Autocorrelation plot](#autocorr-plot)**
+**[Trace plot](#trace-plot)**
+**[Triangle plot](#triangle-plot)**
+**[1D posterior marginals](#1Dhist-plot)**
+
 Autocorrelation plot
 --------------------
 ![autocorr_01]
