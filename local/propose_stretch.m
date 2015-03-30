@@ -22,9 +22,9 @@ function [new_link0, new_logP0, accept0] = propose_stretch(group0, group1, curre
 % get_logP.m        Evaluates the _logP_fun_ function
 % sample_int.m      Sample from vectors containing indices
 %
-%NOTE:  Works with sequential running as well, in that case group0 is the same
-%       as group1, and the moving procedure is little bit different, 
-%       _sample_int.m_ handles this.
+%NOTE:  Works with sequential running as well, in that case group0 has one
+%       element only.
+
 
 stepsize            = Options.stepsize;
 dim                 = Options.dim;

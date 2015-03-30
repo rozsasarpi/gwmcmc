@@ -28,6 +28,9 @@ switch parallel
         end
         
     case 0
+        % this for loop is used only during the initialization
+        % during the MCMC simulation the loop is outside of this function
+        % >> to reflect the moves of the previous walkers in the current
         for ii = 1:Nlink
             theta       = link(:,ii);
             logP(ii)    = logP_fun(theta);

@@ -1,5 +1,6 @@
 
-##GWMCMC
+GWMCMC
+======
 
 GWMCMC is an implementation of the Goodman and Weare 2010 Affine
 invariant ensemble Markov Chain Monte Carlo (MCMC) sampler. MCMC sampling

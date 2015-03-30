@@ -165,11 +165,16 @@ for ii = 2:mc_count
             
             accept = [accept0, accept1];
         case 0
-            [new_link, new_logP, accept] = propose_stretch(group_tot, group_tot, current_link, current_logP, Options);
+            for jj = 1:nwalkers
+                idx = group_tot == jj;
+                
+                % move the j^th walker considering all of the moves of the previous walkers
+                [new_link, new_logP, accept] = propose_stretch(group_tot(idx), group_tot(~idx), current_link, current_logP(idx), Options);
        
-            %update the link pos and logP
-            current_link = new_link;
-            current_logP = new_logP;
+                %update the link pos and logP
+                current_link(:,idx) = new_link;
+                current_logP(:,idx) = new_logP;
+            end
     end
     
     %count rejected proposals
