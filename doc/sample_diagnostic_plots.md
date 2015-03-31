@@ -10,7 +10,7 @@ Diagnostic plots
 
 These illustrative diagnostic plots are corresponding to a dummy example:
 * trivariate normal distribution
-* unferring the the mean from sample
+* inferring the the mean from sample
 * vague priors
 
 Autocorrelation plot
