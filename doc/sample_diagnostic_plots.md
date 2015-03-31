@@ -32,6 +32,7 @@ The upper triangle indicates the Spearman correlation between the corresponding 
 Histogram plot
 --------------
 The _hd_ refers to highest density credible interval (_CI_). The red area contains the 90% of the probability distribution function.
+
 ![1Dhist_01]
 
 [autocorr_01]: https://github.com/rozsasarpi/gwmcmc/blob/master/doc/autocorrelation_plot_sample_01.png "autocorrelation plot"
